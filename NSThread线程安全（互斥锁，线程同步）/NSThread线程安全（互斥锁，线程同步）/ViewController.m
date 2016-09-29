@@ -13,6 +13,14 @@
 //        互斥锁就是使用了线程同步技术
 
 
+/**
+ *  nonatomic与atomic
+ nonatomic不默认对setter方法加锁
+ 建议使用nonatomic
+
+ */
+
+
 //@synchronized(锁对象：通常是self) {锁定的代码}
 
 #import "ViewController.h"
