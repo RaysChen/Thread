@@ -46,9 +46,10 @@
      DISPATCH_QUEUE_CONCURRENT:并发
      DISPATCH_QUEUE_SERIAL:串行
      */
+    //获得队列的方法1
     //dispatch_queue_t queue = dispatch_queue_create("com.520it.download", DISPATCH_QUEUE_CONCURRENT);
     
-    //获得全局并发队列
+    //获得队列的方法2:获得全局并发队列
     /*
      第一个参数:优先级
      第二个参数:
