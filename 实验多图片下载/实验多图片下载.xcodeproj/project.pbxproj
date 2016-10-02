@@ -15,6 +15,8 @@
 		154374411DA0A1B500EF0AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1543743F1DA0A1B500EF0AF8 /* LaunchScreen.storyboard */; };
 		1543744C1DA0A1B500EF0AF8 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1543744B1DA0A1B500EF0AF8 /* _______Tests.m */; };
 		154374571DA0A1B500EF0AF8 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 154374561DA0A1B500EF0AF8 /* _______UITests.m */; };
+		154374651DA1225500EF0AF8 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 154374641DA1225500EF0AF8 /* apps.plist */; };
+		154374681DA122CB00EF0AF8 /* CXAPP.m in Sources */ = {isa = PBXBuildFile; fileRef = 154374671DA122CB00EF0AF8 /* CXAPP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		154374521DA0A1B500EF0AF8 /* 实验多图片下载UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实验多图片下载UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		154374561DA0A1B500EF0AF8 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		154374581DA0A1B500EF0AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154374641DA1225500EF0AF8 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		154374661DA122CB00EF0AF8 /* CXAPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAPP.h; sourceTree = "<group>"; };
+		154374671DA122CB00EF0AF8 /* CXAPP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAPP.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,8 @@
 				154374351DA0A1B500EF0AF8 /* AppDelegate.m */,
 				154374371DA0A1B500EF0AF8 /* ViewController.h */,
 				154374381DA0A1B500EF0AF8 /* ViewController.m */,
+				154374661DA122CB00EF0AF8 /* CXAPP.h */,
+				154374671DA122CB00EF0AF8 /* CXAPP.m */,
 				1543743A1DA0A1B500EF0AF8 /* Main.storyboard */,
 				1543743D1DA0A1B500EF0AF8 /* Assets.xcassets */,
 				1543743F1DA0A1B500EF0AF8 /* LaunchScreen.storyboard */,
@@ -117,6 +124,7 @@
 		154374311DA0A1B500EF0AF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				154374641DA1225500EF0AF8 /* apps.plist */,
 				154374321DA0A1B500EF0AF8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154374651DA1225500EF0AF8 /* apps.plist in Resources */,
 				154374411DA0A1B500EF0AF8 /* LaunchScreen.storyboard in Resources */,
 				1543743E1DA0A1B500EF0AF8 /* Assets.xcassets in Resources */,
 				1543743C1DA0A1B500EF0AF8 /* Main.storyboard in Resources */,
@@ -275,6 +284,7 @@
 			files = (
 				154374391DA0A1B500EF0AF8 /* ViewController.m in Sources */,
 				154374361DA0A1B500EF0AF8 /* AppDelegate.m in Sources */,
+				154374681DA122CB00EF0AF8 /* CXAPP.m in Sources */,
 				154374331DA0A1B500EF0AF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
