@@ -32,6 +32,8 @@
         _apps = arrM;
     }
     return _apps;
+   
+
 }
 
 #pragma mark----UITableViewDataSource

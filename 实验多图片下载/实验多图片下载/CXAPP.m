@@ -13,7 +13,7 @@
 + (instancetype)appWithDict:(NSDictionary *)dict{
 
     CXAPP *appM = [[CXAPP alloc]init];
-    //kvc
+    //KVC
     [appM setValuesForKeysWithDictionary:dict];
     
     return appM;

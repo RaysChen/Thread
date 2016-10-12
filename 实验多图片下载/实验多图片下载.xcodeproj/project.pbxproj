@@ -113,6 +113,7 @@
 				154374661DA122CB00EF0AF8 /* CXAPP.h */,
 				154374671DA122CB00EF0AF8 /* CXAPP.m */,
 				1543743A1DA0A1B500EF0AF8 /* Main.storyboard */,
+				154374641DA1225500EF0AF8 /* apps.plist */,
 				1543743D1DA0A1B500EF0AF8 /* Assets.xcassets */,
 				1543743F1DA0A1B500EF0AF8 /* LaunchScreen.storyboard */,
 				154374421DA0A1B500EF0AF8 /* Info.plist */,
@@ -124,7 +125,6 @@
 		154374311DA0A1B500EF0AF8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				154374641DA1225500EF0AF8 /* apps.plist */,
 				154374321DA0A1B500EF0AF8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -511,6 +511,7 @@
 				1543745D1DA0A1B500EF0AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1543745E1DA0A1B500EF0AF8 /* Build configuration list for PBXNativeTarget "实验多图片下载Tests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +520,7 @@
 				154374601DA0A1B500EF0AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		154374611DA0A1B500EF0AF8 /* Build configuration list for PBXNativeTarget "实验多图片下载UITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +529,7 @@
 				154374631DA0A1B500EF0AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
